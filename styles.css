@@ -60,3 +60,39 @@ header .container li a:hover
     float: left;
     margin: 0 10px 5px 0;
 }
+/*LEARN ABOUT */
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.learn-about h2
+{
+    color:#48BB78;
+    font-size: 24px;
+}
+.learn-about h3
+{
+    color: #48BB78;
+    font-size: 21px;
+}
+.learn-about img
+{
+    max-width: 50%;
+    max-height: 50%;
+
+}
+.card
+{
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 9px 0px -3px rgba(208,208,208,0.75);
+}
