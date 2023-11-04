@@ -66,6 +66,7 @@ header .container li a:hover
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding: 20px;
     
 }
 .learn-about h2
@@ -95,4 +96,34 @@ header .container li a:hover
     justify-content: center;
     align-items: center;
     box-shadow: 8px 9px 0px -3px rgba(208,208,208,0.75);
+}
+/*TESTING */
+.testing 
+{
+    background-color: #4A5568;
+    color:white;
+}
+.testing .container
+{
+    display: flex; 
+    align-items: center;
+    padding: 100px;
+}
+.testing-desciption
+{
+
+    flex:1;
+}
+.cta
+{
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding:1%;
+    padding-left: 3%;
+    padding-right: 3%
+}
+.cta a
+{
+    text-decoration: none;
+    color:white;
 }
