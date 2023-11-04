@@ -127,3 +127,28 @@ header .container li a:hover
     text-decoration: none;
     color:white;
 }
+
+/*RECENT STORY*/
+
+.stories .container h2
+{
+    color:#5A67D8;
+}
+.stories .container .article-body p a
+{
+    color:#5A67D8;
+    text-decoration: none;
+}
+.stories .container .article-body h3
+{
+    font-size: 18px;
+}
+.stories .container img
+{
+    float:left;
+    border-radius: 50%;
+}
+.stories .container .article-body
+{
+    margin-left:15%;
+}
