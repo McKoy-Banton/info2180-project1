@@ -12,7 +12,7 @@ body {
     max-width: 960px;
     width: 100%;
 }
-
+/*NAV BAR*/
 header .container
 {
     display: flex; 
@@ -22,7 +22,6 @@ header .container
 nav
 {
     margin-left: 35%;
-
 }
 header .container h1
 {
@@ -39,6 +38,7 @@ header .container li a
     color:#6b7280;
     text-decoration: none;
     font-size: 18px;
+    margin-right: 12px;
 }
 header .container li a:hover 
 {
@@ -46,7 +46,10 @@ header .container li a:hover
     text-decoration: none;
     font-size: 18px;
 }
-
+header .container ul
+{
+    justify-content: space-around;
+}
 /*HERO OVERVIEW*/
 .overview-hero
 {
