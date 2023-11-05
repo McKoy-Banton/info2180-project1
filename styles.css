@@ -178,7 +178,7 @@ header .container ul
     Arial, "Noto Sans", sans-serif;
     border:none;
     border-radius: 5px;
-    padding:0px 40px 0px 40px;
+    padding:0px 60px 0px 60px;
 }
 .newsletter .container form
 {
@@ -195,7 +195,7 @@ header .container ul
     Arial, "Noto Sans", sans-serif;
     border-radius: 5px;
     border: none;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 60px 20px 60px;
 }
 
 /*FOOTER*/
